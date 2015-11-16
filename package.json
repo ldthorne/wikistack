@@ -1,0 +1,22 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "This is the repo for the WikiStack workshop. Worked on by Nicole Siegel and Leon Daniel Thorne.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js,css ./app.js"
+  },
+  "author": "Leon Daniel Thorne <ldthorne@brandeis.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.6",
+    "morgan": "^1.6.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
