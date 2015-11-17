@@ -1,8 +1,11 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var morgan = require("morgan")
-var swig = require("swig");
+var swig = require("swig")
+require('./filters')(swig);
+
 var routes = require("./routes/wiki");
+
 
 var models = require('./models/');
 var Page = models.Page;
